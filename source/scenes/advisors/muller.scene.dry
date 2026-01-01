@@ -27,7 +27,7 @@ We have improved our relations with the Z, [+ ddp_name +], and DVP, and reduced 
 
 @toleration
 title: Defending Toleration
-subtitle: Müller supports the toleration arrangement with the bourgeois parties.
+subtitle: Müller supports the toleration arrangement with the bourgeois parties, as he is a traitor to the revolution.
 unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?][? if not spd_toleration: The SPD is not in toleration. ?]
 choose-if: spd_in_government = 0 and spd_toleration = 1 and advisor_action_timer = 0
 on-arrival: advisor_action_timer = 6; left_dissent -= 8; neorevisionist_dissent -= 8; center_dissent -= 5;
