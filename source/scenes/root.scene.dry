@@ -558,6 +558,7 @@ Q.severing_advisor = 0; // Carl Severing
 Q.braun_advisor = 0; // Otto Braun
 Q.juchacz_advisor = 0; // Marie Juchacz
 Q.baade_advisor = 0; // Fritz Baade
+Q.wright_advisor = 0; // Harold Wright
 
 // Labor advisors
 Q.leipart_advisor = 0; // Theodor Leipart
