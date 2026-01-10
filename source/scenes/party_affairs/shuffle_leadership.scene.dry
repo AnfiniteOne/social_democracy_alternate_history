@@ -109,6 +109,14 @@ go-to: rm_main
 
 Pfülf has been removed as an advisor. The Reformist faction disapproves.
 
+@remove_wright
+title: Remove Wright
+view-if: wright_advisor = 1
+tags: remove_advisor
+on-arrival: wright_advisor = 0; reformist_dissent += 5; n_advisors -= 1
+go-to: rm_main
+
+Wright has been removed as an advisor. The Reformist faction disapproves.
 
 # labor
 
@@ -428,7 +436,16 @@ tags: reformist_advisor
 
 Antonie Pfülf is now an advisor.
 
+@add_wright
+title: Harold Wright
+subtitle: Harold Wright is our founder and first chairman.
+card-image: img/portraits/WrightHarold.jpg
+view-if: wright_advisor = 0 and n_advisors < 3
+on-arrival: wright_advisor = 1; n_advisors += 1; reformist_strength += 5
+go-to: advisor_menu
+tags: reformist_advisor
 
+Harold Wright is now an advisor.
 
 # left
 
