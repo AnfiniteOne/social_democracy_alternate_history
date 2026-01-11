@@ -539,11 +539,10 @@ Q.wels_advisor = 1; // Otto Wels
 Q.muller_dead = 0;
 // okay I know Arthur Crispien was a leader irl but i couldn't find much interesting about him...
 Q.crispien_advisor = 0; // Arthur Crispien
-Q.hilferding_advisor = 1; // Rudolf Hilferding
+Q.sender_advisor = 1; // Despite the variable name, Elaine Abrams
 Q.wright_advisor = 1; // Harold Wright
 
 // left advisors
-Q.sender_advisor = 0; // Toni Sender
 Q.levi_advisor = 0; // Paul Levi
 Q.levi_dead = 0;
 Q.rosenfeld_advisor = 0; // Kurt Rosenfeld
