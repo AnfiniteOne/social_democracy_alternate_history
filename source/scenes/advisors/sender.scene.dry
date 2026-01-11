@@ -11,7 +11,7 @@ Elaine Abrams has served one term as a state congresswoman for Minnesota. This m
 
 - @left_unity
 - @organizing_women
-- @moderate_economic_plan
+- @moderate_economics
 - @root: Return to main
 
 @left_unity
@@ -34,7 +34,7 @@ Sender's message is popular among young women working in the service sector, and
 
 [? if spd_r < 50 : Unfortunately, women still disproportionately support the bourgeois parties. ?]
 
-@moderate_economic_plan
+@moderate_economics
 title: Support the reformist economic plan
 subtitle: Abrams can help support a moderate economic plan.
 choose-if: advisor_action_timer = 0 and moderate_plan_adopted = 0 and black_thursday_seen = 1
