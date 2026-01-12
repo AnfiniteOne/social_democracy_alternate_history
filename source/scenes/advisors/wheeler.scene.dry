@@ -10,7 +10,7 @@ new-page: true
 Burton K. Wheeler [? if spd_prussia = 1 : is ?][? if spd_prussia = 0 : was ?] a senator from Montana, and thus the only person in our party in any federal institution. Well-known for 
 
 - @awareness
-- @prussian_bulwark
+- @campaign_isolation
 - @root: Return to main
 
 @awareness
@@ -22,10 +22,10 @@ on-arrival: advisor_action_timer = 6; coalition_dissent -= 1 if spd_in_governmen
 
 We have improved our relations with the [? if in_grand_coalition : Center (Zentrum) Party, [+ ddp_name +], and DVP, ?][? if not in_grand_coalition: Center (Zentrum) Party and [+ ddp_name +], ?] and reduced tensions with the coalition.
 
-@prussian_bulwark
-title: The Prussian Bulwark
-subtitle: As the Minister-President of Prussia, Braun has power over the Prussian bureaucracy and security services.
-choose-if: advisor_action_timer <= 0 and spd_prussia = 1
-unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?][? if spd_prussia == 0 : The SPD does not control Prussia. ?]
-on-arrival: advisor_action_timer = 6; prussian_affairs_timer -= 6; last_advisor_action = 1
-go-to: prussian_affairs
+@campaign_isolation
+title: Rally for isolation
+subtitle: Campaign for "splendid isolation" and against internationalism.
+choose-if: advisor_action_timer = 0
+unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?]
+on-arrival: advisor_action_timer = 6;
+go-to: rally.pacifism
