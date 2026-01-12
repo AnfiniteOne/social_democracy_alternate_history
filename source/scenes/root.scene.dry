@@ -535,12 +535,12 @@ Q.march_on_berlin_timer = 0;
 
 
 // all the initial advisors are centrists.
-Q.wels_advisor = 1; // Otto Wels
 Q.muller_dead = 0;
 // okay I know Arthur Crispien was a leader irl but i couldn't find much interesting about him...
 Q.crispien_advisor = 0; // Arthur Crispien
 Q.sender_advisor = 1; // Despite the variable name, Elaine Abrams
 Q.wright_advisor = 1; // Harold Wright
+Q.wheeler_advisor = 1; // Burton Wheeler
 
 // left advisors
 Q.levi_advisor = 0; // Paul Levi
