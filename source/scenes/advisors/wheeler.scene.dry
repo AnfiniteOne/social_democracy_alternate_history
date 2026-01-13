@@ -1,8 +1,8 @@
 title: Burton K. Wheeler
 is-pinned-card: true
 tags: advisor, reformist
-card-image: img/portraits/BraunOtto.jpg
-view-if: braun_advisor = 1
+card-image: img/portraits/WheelerBurton.jpg
+view-if: wheeler_advisor = 1
 new-page: true 
 
 = Burton Kendall Wheeler
