@@ -7,7 +7,7 @@ new-page: true
 
 = Burton Kendall Wheeler
 
-Burton K. Wheeler [? if spd_prussia = 1 : is ?][? if spd_prussia = 0 : was ?] a senator from Montana, and thus the only person in our party in any federal institution. Well-known for his 1922 vice-presidential candidacy for the Progressive Party. 
+Burton K. Wheeler [? if spd_prussia = 1 : is ?][? if spd_prussia = 0 : was ?] a senator from Montana, and thus the only person in our party in any federal institution. He is well-known for his 1922 vice-presidential candidacy for the Progressive Party. 
 
 - @awareness
 - @campaign_isolation
