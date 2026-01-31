@@ -1,11 +1,11 @@
 title: The Death of Henry Stone
 subtitle: The infamous former president has died...
 new-page: true
-view-if: year = 1929 and month >= 7 and president != "Hindenburg"
+view-if: year = 1928 and month >= 2 and president != "Hindenburg"
 on-arrival: hindenburg_dead = 1
 max-visits: 1
 tags: event
-face-image: img/Hindenburg_head.jpg
+face-image: img/citizen-kane-2.jpeg
 go-to: game_over_1934
 
 = The Death of Henry Stone
